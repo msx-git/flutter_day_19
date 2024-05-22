@@ -15,8 +15,6 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   int option = 0;
 
-  final repo = ProductRepository();
-
   final controller = TextEditingController();
 
   var products = ProductRepository().products;
@@ -138,6 +136,8 @@ class _MainPageState extends State<MainPage> {
                 return ListItem(product: products[index]);
               },
             ),
+
+            /// Gallery view
             GridView.builder(
               padding: const EdgeInsets.all(10),
               itemCount: products.length,

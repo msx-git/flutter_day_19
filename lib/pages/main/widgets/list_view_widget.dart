@@ -1,21 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../../../models/product.dart';
-
-// class ListViewWidget extends StatelessWidget {
-//   const ListViewWidget({super.key});
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return ListView.builder(
-//       itemCount: products.length,
-//       itemBuilder: (context, index) {
-//         return ListItem(index: index);
-//       },
-//     );
-//   }
-// }
-
 class ListItem extends StatelessWidget {
   const ListItem({super.key, required this.product});
 

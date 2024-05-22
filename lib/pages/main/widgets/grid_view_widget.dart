@@ -2,27 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../../../models/product.dart';
 
-// class GridViewWidget extends StatelessWidget {
-//   const GridViewWidget({super.key});
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return GridView.builder(
-//       padding: const EdgeInsets.all(10),
-//       itemCount: products.length,
-//       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-//         crossAxisCount: 2,
-//         childAspectRatio: 1 / 2.3,
-//         mainAxisSpacing: 10,
-//         crossAxisSpacing: 10,
-//       ),
-//       itemBuilder: (context, index) {
-//         return GridItem(index: index);
-//       },
-//     );
-//   }
-// }
-
 class GridItem extends StatelessWidget {
   const GridItem({super.key, required this.product});
 

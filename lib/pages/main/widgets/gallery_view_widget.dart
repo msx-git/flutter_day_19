@@ -2,20 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../../../models/product.dart';
 
-// class GalleryViewWidget extends StatelessWidget {
-//   const GalleryViewWidget({super.key});
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return ListView.builder(
-//       itemCount: products.length,
-//       itemBuilder: (context, index) {
-//         return GalleryItem(index: index);
-//       },
-//     );
-//   }
-// }
-
 class GalleryItem extends StatelessWidget {
   const GalleryItem({super.key, required this.product});
 
