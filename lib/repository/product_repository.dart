@@ -52,5 +52,26 @@ class ProductRepository {
         address: "Ташкент, Юнусабадский район",
         imageUrl:
             "https://frankfurt.apollo.olxcdn.com/v1/files/0ferl08tfpit-UZ/image;s=1000x700"),
+    Product(
+        title: "Yangi hovli uy sotiladi",
+        isNew: false,
+        price: 96000,
+        address: "Гулистан, Сырдарьинская область",
+        imageUrl:
+        "https://frankfurt.apollo.olxcdn.com/v1/files/zbaifmu0kees3-UZ/image;s=1000x700"),
+    Product(
+        title: "Mi pencil stylus (оптом)",
+        isNew: true,
+        price: 65,
+        address: "Гулистан, Сырдарьинская область",
+        imageUrl:
+        "https://frankfurt.apollo.olxcdn.com/v1/files/2ahn5nrxoncr2-UZ/image;s=1000x700"),
+    Product(
+        title: "BMW3 330 Li M Sport Dark Set шикарное авто",
+        isNew: true,
+        price: 53900,
+        address: "Яккасарайский район",
+        imageUrl:
+        "https://frankfurt.apollo.olxcdn.com/v1/files/ia5fxlftfdqp3-UZ/image;s=1000x700"),
   ];
 }
